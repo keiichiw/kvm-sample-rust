@@ -1,0 +1,13 @@
+[package]
+name = "kvm-sample-rust"
+version = "0.1.0"
+edition = "2021"
+author = "Keiichi Watanabe"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2.80"
+kvm-bindings = "0.6"
+kvm-ioctls = "0.13.0"
+vmm-sys-util = "0.11"
